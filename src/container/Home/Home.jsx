@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import BlogPost from "../BlogPost/BlogPost";
 // import YouTubeCom from "../../component/YouTubeCom/YouTubeCom";
-import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
+// import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
 // import Product from "../Product/Product";
 
 class Home extends Component {
@@ -40,11 +41,15 @@ class Home extends Component {
         <hr />
         <Product /> */}
 
-        <p>LifeCycle Component</p>
-        <hr />
+        {/* <p>LifeCycle Component</p>
+        <hr /> */}
         {/* pengkondisian jika showComponent bernilai true, maka munculkan LifeCycleComp jika false 
         maka tdk muncul */}
-        {this.state.showComponent ? <LifeCycleComp /> : null}
+        {/* {this.state.showComponent ? <LifeCycleComp /> : null} */}
+
+        <p>Blog Post</p>
+        <hr/>
+        <BlogPost/>
       </div>
     );
   }
