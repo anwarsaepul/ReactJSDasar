@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import YouTubeCom from "../../component/YouTubeCom/YouTubeCom";
-import Product from "../Product/Product";
+// import YouTubeCom from "../../component/YouTubeCom/YouTubeCom";
+import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
+// import Product from "../Product/Product";
 
 class Home extends Component {
   render() {
     return (
       <div>
-          {/* <p>YouTube Component</p>
+        {/* <p>YouTube Component</p>
           <hr/>
         <YouTubeCom 
             time="6.7" 
@@ -25,9 +26,13 @@ class Home extends Component {
         <YouTubeCom 
             title="EFG"
             desc="Lorem Efg..."/> */}
-        <p>Counter</p>
+        {/* <p>Counter</p>
         <hr />
-        <Product />
+        <Product /> */}
+
+        <p>LifeCycle Component</p>
+        <hr />
+        <LifeCycleComp />
       </div>
     );
   }
