@@ -25,7 +25,7 @@ class BlogPost extends Component {
         //     })
 
         // Pemanggilan API menggunakan axios
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('http://localhost:3004/posts')
             // ambil data dan simpan dalam variable res
             .then((res) => {
                 // console.log(res.data)
