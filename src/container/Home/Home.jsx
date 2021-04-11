@@ -4,6 +4,16 @@ import LifeCycleComp from "../LifeCycleComp/LifeCycleComp";
 // import Product from "../Product/Product";
 
 class Home extends Component {
+  state = {
+    showComponent: true,
+  };
+  // componentDidMount() {
+  //   setTimeout(() => {
+  //     this.setState({
+  //       showComponent: false,
+  //     })
+  //   }, 5000);
+  // }
   render() {
     return (
       <div>
@@ -32,7 +42,9 @@ class Home extends Component {
 
         <p>LifeCycle Component</p>
         <hr />
-        <LifeCycleComp />
+        {/* pengkondisian jika showComponent bernilai true, maka munculkan LifeCycleComp jika false 
+        maka tdk muncul */}
+        {this.state.showComponent ? <LifeCycleComp /> : null}
       </div>
     );
   }
