@@ -1,61 +1,110 @@
-.section-title{
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: steelblue;
+.section-title {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: steelblue;
 }
 
-.post{
-    display: flex;
-    border: 1px solid teal;
-    width: 500px;
-    padding: 10px;
-    box-shadow: 0 0 5px slategray;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.post {
+  display: flex;
+  border: 1px solid teal;
+  width: 500px;
+  padding: 10px;
+  box-shadow: 0 0 5px slategray;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
-.img-thumb{
-    width: 200px;
-    height: 150px;
-    margin-right: 20px;
+.img-thumb {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
 }
 
-.img-thumb img{
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
+.img-thumb img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
 
-.content{
-    flex: 1;
-    margin-left: 10px;
+.content {
+  flex: 1;
+  margin-left: 10px;
 }
 
-.content p.title{
-    margin: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #3d4a6e;
-    margin-bottom: 15px;
+.content p.title {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d4a6e;
+  margin-bottom: 15px;
 }
 
-.content p.desc{
-    margin: 0px;
-    font-size: 16px;
-    color: #4a4a4a;
+.content p.desc {
+  margin: 0px;
+  font-size: 16px;
+  color: #4a4a4a;
 }
 
-.remove{
-    padding: 12px 15px;
-    background: red;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    margin-top: 15px;
+.remove {
+  padding: 12px 15px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 15px;
 }
 
-.remove:hover{
-    cursor: pointer;
+.remove:hover {
+  cursor: pointer;
+}
+
+.form-add-post {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin-left: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+.form-add-post label {
+  display: block;
+  font-size: 14px;
+  color: royalblue;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-add-post input,
+.form-add-post textarea {
+  outline: none;
+  border: 1px solid teal;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: royalblue;
+}
+
+button.btn-submit {
+  outline: none;
+  border: 1px solid teal;
+  padding: 10px 30px;
+  border-radius: 4px;
+  color: turquoise;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background: turquoise;
+  color: white;
+  font-weight: bold;
+
 }
