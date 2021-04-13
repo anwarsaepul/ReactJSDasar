@@ -1,0 +1,14 @@
+.navigation{
+    background: turquoise;
+    padding: 30px;
+}
+
+.navigation a{
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background: seagreen;
+    border-radius: 4-x;
+}
+

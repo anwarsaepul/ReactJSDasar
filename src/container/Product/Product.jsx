@@ -20,6 +20,8 @@ handleCounterChange = (newValue) => {
   render() {
     return (
       <Fragment>
+        <p>Halaman Product</p>
+        <hr />
         <div className="header">
           <div className="logo">
             <p>Toko Ku</p>
