@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "../Product/Product.css";
-import bg from "../../assets/bg.jpg";
+import "../Product.css";
+import bg from "../../../../assets/bg.jpg";
 
 class CardProduct extends Component {
     state = {
